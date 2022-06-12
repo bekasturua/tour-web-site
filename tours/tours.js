@@ -1,16 +1,15 @@
 import { getProductList } from "../product.api.js";
 
+window.addEventListener("load", async () => {
+  const products = await getProductList();
 
-window.addEventListener('load', async () => {
-    const products = await getProductList();
+  const tours = document.getElementsByClassName("tours")[0];
+  let toursHTML = "";
 
-    const tours = document.getElementsByClassName('tours')[0];
-    let toursHTML = '';
+  console.log(products);
 
-    console.log(products);
-
-    products.forEach(product => {
-        toursHTML += `
+  products.forEach((product) => {
+    toursHTML += `
         <div class="tours">
             <div class="tours_parent">
                 <div class="travel_img">
@@ -40,12 +39,10 @@ window.addEventListener('load', async () => {
                 </div>
             </div>
         </div>
-        `
-    })
+        `;
+  });
 
-    console.log(toursHTML);
+  console.log(toursHTML);
 
-    tours.insertAdjacentHTML("afterend", toursHTML);
-})
-
-
+  tours.insertAdjacentHTML("afterend", toursHTML);
+});

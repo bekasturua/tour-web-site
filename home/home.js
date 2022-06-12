@@ -4,8 +4,8 @@ import {
   renderProducts,
 } from "../modules/pagination/pagination.js";
 import { search } from "../modules/search/search.js";
-import { filter} from "../modules/filter/filter.js";
-import { addToFavoritesListener} from "../modules/addToFavorites/favorites.js";
+import { filter } from "../modules/filter/filter.js";
+import { addToFavoritesListener } from "../modules/addToFavorites/favorites.js";
 
 window.addEventListener("load", async () => {
   const products = await getProductList();
@@ -17,9 +17,5 @@ window.addEventListener("load", async () => {
 
   filter(products);
 
-  addToFavoritesListener(products)
+  addToFavoritesListener(products);
 });
-
-
-
-

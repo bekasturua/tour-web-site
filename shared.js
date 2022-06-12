@@ -5,8 +5,8 @@ let modal = document.querySelector(".modal");
 let modalCloseButtons = document.querySelectorAll(".close_button");
 let loginButton = document.querySelector(".login_click");
 let registerButton = document.querySelector(".register_click");
-let loginPopup = document.querySelector('.user');
-let registerPopup = document.querySelector('.register');
+let loginPopup = document.querySelector(".user");
+let registerPopup = document.querySelector(".register");
 
 loginButton.addEventListener("click", function () {
   modal.style.display = "block";
@@ -22,10 +22,9 @@ registerButton.addEventListener("click", function () {
   registerPopup.style.display = "block";
 });
 
-for(let i = 0; i < modalCloseButtons.length; i++) {
-  modalCloseButtons[i].addEventListener("click", closeModal)
-};
-
+for (let i = 0; i < modalCloseButtons.length; i++) {
+  modalCloseButtons[i].addEventListener("click", closeModal);
+}
 
 function closeModal() {
   backdrop.style.display = "none";

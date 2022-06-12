@@ -23,7 +23,7 @@ export function generatePagination(data, dataPerPage, productType) {
   }
   pagesHTML += '<li class="page-item"><a class="page-link">Next</a></li>';
   paginationContainer.insertAdjacentHTML("beforeend", pagesHTML);
-  
+
   paginate(data, dataPerPage, productType);
 }
 
@@ -92,7 +92,11 @@ export function renderProducts(products, from, to, productType) {
                 <h5 class="card-title">${product.title}</h5>
                 <b class="card-text">${product.price}$</b>
                 <button class="btn btn-primary"><i class="fa-solid fa-coins"></i> Buy</button>
-                ${productType === undefined ? `<button id="${product.title}" class="btn btn-primary add-to-favorites"><i class="fa-solid fa-star"></i> Add to favorites</button>` : `<button id="${product.title}" class="btn btn-danger remove-from-favorites"><i class="fa-solid fa-ban"></i> Remove from favorites</button>`}
+                ${
+                  productType === undefined
+                    ? `<button id="${product.title}" class="btn btn-primary add-to-favorites"><i class="fa-solid fa-star"></i> Add to favorites</button>`
+                    : `<button id="${product.title}" class="btn btn-danger remove-from-favorites"><i class="fa-solid fa-ban"></i> Remove from favorites</button>`
+                }
             </div>
           </div>
         </div>

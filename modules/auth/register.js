@@ -29,7 +29,7 @@ function userRegister() {
         if (users.filter((user) => user.email == email).length == 0) {
           registerUser(data);
         } else {
-            alert('Already exists!')
+          alert("Already exists!");
         }
       });
   }

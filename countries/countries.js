@@ -37,8 +37,6 @@ window.addEventListener("load", async () => {
 
   renderCountries(fullCounrtiesInfo);
 
-
-
   const searchInp = document.getElementById("search");
   searchInp.addEventListener("keyup", (ev) => {
     const searchValue = searchInp.value;
@@ -47,10 +45,7 @@ window.addEventListener("load", async () => {
     );
     renderCountries(filtered);
   });
-
-
 });
-
 
 function renderCountries(fullCounrtiesInfo) {
   const countries = document.getElementsByClassName("country_parent")[0];
@@ -87,7 +82,6 @@ function renderCountries(fullCounrtiesInfo) {
         </div>
         `;
   });
-
 
   countries.insertAdjacentHTML("beforeend", countriesHTML);
 }
