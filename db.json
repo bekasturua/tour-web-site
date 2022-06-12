@@ -1,0 +1,560 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Rio de Janeiro (Brazil)",
+      "price": "620",
+      "img": "../product-img/brazil.jpg",
+      "flag": "../countries/flags/Brazil.png",
+      "collageImg": "../tours/tours-img/rio de janeiro/collage_rioDeJaneiro.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 8 kg | Baggage 25 kg",
+      "li5": "Two-way transfer",
+      "time": "8 nights / 9 days | 1 person"
+    },
+    {
+      "id": 2,
+      "title": "Bogotá (Colombia)",
+      "price": "600",
+      "img": "../product-img/colombia.jpg",
+      "flag": "../countries/flags/Colombia.png",
+      "collageImg": "../tours/tours-img/bogota/bogota_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 10 kg | Baggage 20 kg",
+      "li5": "Two-way transfer",
+      "time": "6 nights / 7 days | 1 person"
+    },
+    {
+      "id": 3,
+      "title": "Dubai (UAE)",
+      "price": "950",
+      "img": "../product-img/dubai.jpg",
+      "flag": "../countries/flags/UAE.png",
+      "collageImg": "../tours/tours-img/dubai/dubai_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 7 kg | Baggage 24 kg",
+      "li5": "Two-way transfer",
+      "time": "8 nights / 9 days | 1 person"
+    },
+    {
+      "id": 4,
+      "title": "London (England)",
+      "price": "550",
+      "img": "../product-img/england.jpg",
+      "flag": "../countries/flags/England.png",
+      "collageImg": "../tours/tours-img/london/collage_london.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 10 kg | Baggage 30 kg",
+      "li5": "Two-way transfer",
+      "time": "4 nights / 5 days | 1 person"
+    },
+    {
+      "id": 5,
+      "title": "Paris (France)",
+      "price": "590",
+      "img": "../product-img/france.jpg",
+      "flag": "../countries/flags/France.png",
+      "collageImg": "../tours/tours-img/paris/paris_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 6 kg | Baggage 20 kg",
+      "li5": "Two-way transfer",
+      "time": "6 nights / 7 days | 1 person"
+    },
+    {
+      "id": 6,
+      "title": "Svaneti (Georgia)",
+      "price": "300",
+      "img": "../product-img/georgia.jpg",
+      "flag": "../countries/flags/Georgia.png",
+      "collageImg": "../tours/tours-img/svaneti/collage_svaneti.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 8 kg | Baggage 18 kg",
+      "li5": "Two-way transfer",
+      "time": "7 nights / 8 days | 1 person"
+    },
+    {
+      "id": 7,
+      "title": "Rome (Italy)",
+      "price": "320",
+      "img": "../product-img/italy.jpg",
+      "flag": "../countries/flags/Italy.png",
+      "collageImg": "../tours/tours-img/rome/rome_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 10 kg | Baggage 21 kg",
+      "li5": "Two-way transfer",
+      "time": "12 nights / 13 days | 1 person"
+    },
+    {
+      "id": 8,
+      "title": "Maldives",
+      "price": "1300",
+      "img": "../product-img/maldives.jpg",
+      "flag": "../countries/flags/Maldives.png",
+      "collageImg": "../tours/tours-img/maldives/maldives_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 9 kg | Baggage 23 kg",
+      "li5": "Two-way transfer",
+      "time": "11 nights / 12 days | 1 person"
+    },
+    {
+      "id": 9,
+      "title": "Gudauri (Georgia)",
+      "price": "300",
+      "img": "../product-img/gudauri.jpg",
+      "flag": "../countries/flags/Georgia.png",
+      "collageImg": "../tours/tours-img/gudauri/gudauri_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 6 kg | Baggage 30 kg",
+      "li5": "Two-way transfer",
+      "time": "12 nights / 13 days | 1 person"
+    },
+    {
+      "id": 10,
+      "title": "Cape Town (South africa)",
+      "price": "1050",
+      "img": "../product-img/south africa.jpg",
+      "flag": "../countries/flags/South_Africa.png",
+      "collageImg": "../tours/tours-img/capeTown/capeTown_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 8 kg | Baggage 25 kg",
+      "li5": "Two-way transfer",
+      "time": "10 nights / 11 days | 1 person"
+    },
+    {
+      "id": 11,
+      "title": "Barcelona (Spain)",
+      "price": "500",
+      "img": "../product-img/spain.jpg",
+      "flag": "../countries/flags/Spain.png",
+      "collageImg": "../tours/tours-img/barcelona/barcelona_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 9 kg | Baggage 20 kg",
+      "li5": "Two-way transfer",
+      "time": "14 nights / 15 days | 1 person"
+    },
+    {
+      "id": 12,
+      "title": "Bangkok (Thailand)",
+      "price": "720",
+      "img": "../product-img/thailand.jpg",
+      "flag": "../countries/flags/Thailand.png",
+      "collageImg": "../tours/tours-img/Bangkok/Bangkok_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 12 kg | Baggage 25 kg",
+      "li5": "Two-way transfer",
+      "time": "7 nights / 8 days | 1 person"
+    },
+    {
+      "id": 13,
+      "title": "Istanbul (Turkey)",
+      "price": "350",
+      "img": "../product-img/turkey.jpg",
+      "flag": "../countries/flags/Turkey.png",
+      "collageImg": "../tours/tours-img/istanbul/istanbul_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 9 kg | Baggage 22 kg",
+      "li5": "Two-way transfer",
+      "time": "9 nights / 10 days | 1 person"
+    },
+    {
+      "id": 14,
+      "title": "New York (Usa)",
+      "price": "575",
+      "img": "../product-img/usa.jpg",
+      "flag": "../countries/flags/Usa.png",
+      "collageImg": "../tours/tours-img/newYork/newYork_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 7 kg | Baggage 21 kg",
+      "li5": "Two-way transfer",
+      "time": "10 nights / 11 days | 1 person"
+    },
+    {
+      "id": 15,
+      "title": "Berlin (Germany)",
+      "price": "490",
+      "img": "../product-img/berlin.jpg",
+      "flag": "../countries/flags/germany.png",
+      "collageImg": "../tours/tours-img/berlin/berlin_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 8 kg | Baggage 23 kg",
+      "li5": "Two-way transfer",
+      "time": "11 nights / 12 days | 1 person"
+    },
+    {
+      "id": 16,
+      "title": "Sao Paulo (Brazol)",
+      "price": "790",
+      "img": "../product-img/sao paulo.jpg",
+      "flag": "../countries/flags/brazil.png",
+      "collageImg": "../tours/tours-img/sao paulo/sao paulo_collage .jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 6 kg | Baggage 20 kg",
+      "li5": "Two-way transfer",
+      "time": "7 nights / 8 days | 1 person"
+    },
+    {
+      "id": 17,
+      "title": "Mexico City (Mexico)",
+      "price": "990",
+      "img": "../product-img/mexico.jpg",
+      "flag": "../countries/flags/mexico.png",
+      "collageImg": "../tours/tours-img/Mexico City/Mexico City_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 8 kg | Baggage 23 kg",
+      "li5": "Two-way transfer",
+      "time": "11 nights / 12 days | 1 person"
+    },
+    {
+      "id": 18,
+      "title": "Ankara (Turkey)",
+      "price": "390",
+      "img": "../product-img/ankara.jpg",
+      "flag": "../countries/flags/turkey.png",
+      "collageImg": "../tours/tours-img/ankara/ankara_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 10 kg | Baggage 25 kg",
+      "li5": "Two-way transfer",
+      "time": "14 nights / 15 days | 1 person"
+    },
+    {
+      "id": 19,
+      "title": "Athens (Greece)",
+      "price": "400",
+      "img": "../product-img/athen.jpg",
+      "flag": "../countries/flags/Greece.png",
+      "collageImg": "../tours/tours-img/athen/athen_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 8 kg | Baggage 23 kg",
+      "li5": "Two-way transfer",
+      "time": "14 nights / 15 days | 1 person"
+    },
+    {
+      "id": 20,
+      "title": "Hong Kong (China)",
+      "price": "1000",
+      "img": "../product-img/china.jpg",
+      "flag": "../countries/flags/china.png",
+      "collageImg": "../tours/tours-img/hong kong/hong kong_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 8 kg | Baggage 24 kg",
+      "li5": "Two-way transfer",
+      "time": "10 nights / 11 days | 1 person"
+    },
+    {
+      "id": 21,
+      "title": "Jakarta (Indonesia)",
+      "price": "820",
+      "img": "../product-img/jakerta.jpg",
+      "flag": "../countries/flags/indonesia.png",
+      "collageImg": "../tours/tours-img/jakarta/jakarta_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 8 kg | Baggage 20 kg",
+      "li5": "Two-way transfer",
+      "time": "9 nights / 10 days | 1 person"
+    },
+    {
+      "id": 22,
+      "title": "Budapest (Hungary)",
+      "price": "320",
+      "img": "../product-img/Hungary.jpg",
+      "flag": "../countries/flags/Hungary.png",
+      "collageImg": "../tours/tours-img/Hungary/Hungary_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 9 kg | Baggage 20 kg",
+      "li5": "Two-way transfer",
+      "time": "4 nights / 5 days | 1 person"
+    },
+    {
+      "id": 23,
+      "title": "Sharm el sheikh (Egypt)",
+      "price": "520",
+      "img": "../product-img/egypt.jpg",
+      "flag": "../countries/flags/egypt.png",
+      "collageImg": "../tours/tours-img/egypt/egypt_collage.jpg",
+      "li1": "Accommodation in the hotel",
+      "li2": "Travel insurance",
+      "li3": "Breakfast",
+      "li4": "Hand luggage 10 kg | Baggage 25 kg",
+      "li5": "Two-way transfer",
+      "time": "6 nights / 7 days | 1 person"
+    }
+  ],
+  "users": [
+    {
+      "username": "beqa",
+      "email": "beqa",
+      "password": "beqa",
+      "id": 1
+    }
+  ],
+  "countriesInfo": [
+    {
+      "id": 1,
+      "name": "Argentina",
+      "firstImg": "../Countries/Countries/Argentina/argentina1.jpg",
+      "secondImg": "../Countries/Countries/Argentina/argentina2.jpg",
+      "thirdImg": "../Countries/Countries/Argentina/argentina3.jpg",
+      "description": "Argentina (Spanish pronunciation:[aɾxen'tina], officially the Argentine Republic[A] (Spanish: República Argentina), is a country in the southern half of South America. Argentina covers an area of 2,780,400 km2 (1,073,500 sq mi),[B] making it the largest Spanish-speaking nation in the world by area. It is the second-largest country in South America after Brazil, the fourth-largest country in the Americas, and the eighth-largest country in the world. It shares the bulk of the Southern Cone with Chile to the west, and is also bordered by Bolivia and Paraguay to the north, Brazil to the northeast, Uruguay and the South Atlantic Ocean to the east, and the Drake Passage to the south. Argentina is a federal state subdivided into twenty-three provinces, and one autonomous city, which is the federal capital and largest city of the nation, Buenos Aires. The provinces and the capital have their own constitutions, but exist under a federal system. Argentina claims sovereignty over a part of Antarctica, the Falkland Islands and South Georgia and the South Sandwich Islands."
+    },
+    {
+      "id": 2,
+      "name": "Belgium",
+      "firstImg": "../Countries/Countries/Belgium/Belgium1.jpg",
+      "secondImg": "../Countries/Countries/Belgium/Belgium2.jpg",
+      "thirdImg": "../Countries/Countries/Belgium/Belgium3.jpg",
+      "description": "Belgium,[A] officially the Kingdom of Belgium,[B] is a country in Western Europe. The country is bordered by the Netherlands to the north, Germany to the east, Luxembourg to the southeast, France to the southwest, and the North Sea to the northwest. It covers an area of 30,689 km2 (11,849 sq mi) and has a population of more than 11.5 million, making it the 22nd most densely populated country in the world and the 6th most densely populated country in Europe, with a density of 376 per square kilometre (970/sq mi). The capital and largest city is Brussels; other major cities are Antwerp, Ghent, Charleroi, Liège, Bruges, Namur, and Leuven. Belgium is a sovereign state and a federal constitutional monarchy with a parliamentary system. Its institutional organization is complex and is structured on both regional and linguistic grounds. It is divided into three highly autonomous regions:[11] the Flemish Region (Flanders) in the north, the Walloon Region (Wallonia) in the south, and the Brussels-Capital Region.[12] Brussels is the smallest and most densely populated region, as well as the richest region in terms of GDP per capita."
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "firstImg": "../Countries/Countries/brazil/brazil1.jpg",
+      "secondImg": "../Countries/Countries/brazil/brazil2.jpg",
+      "thirdImg": "../Countries/Countries/brazil/brazil3.jpg",
+      "description": "Brazil (Portuguese: Brasil, pronounced [bɾaziw]), officially the Federative Republic of Brazil (Portuguese: audio speaker iconRepública Federativa do Brasil),[11] is the largest country in both South America and Latin America. At 8.5 million square kilometers (3,300,000 sq mi)[12] and with over 211 million people, Brazil is the worlds fifth-largest country by area and the sixth most populous. Its capital is Brasília, and its most populous city is São Paulo. The federation is composed of the union of the 26 states and the Federal District. It is the largest country to have Portuguese (namely Brazilian Portuguese) as an official language and the only one in the Americas;[13][14] it is also one of the most multicultural and ethnically diverse nations, due to over a century of mass immigration from around the world;[15] as well as the most populous Roman Catholic-majority country'"
+    },
+    {
+      "id": 4,
+      "name": "Canada",
+      "firstImg": "../Countries/Countries/Canada/Canada1.jpg",
+      "secondImg": "../Countries/Countries/Canada/Canada2.jpg",
+      "thirdImg": "../Countries/Countries/Canada/Canada3.jpg",
+      "description": "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the worlds second-largest country by total area. Its southern and western border with the United States, stretching 8,891 kilometres (5,525 mi), is the worlds longest bi-national land border. Canadas capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver."
+    },
+    {
+      "id": 5,
+      "name": "China",
+      "firstImg": "../Countries/Countries/China/china1.jpg",
+      "secondImg": "../Countries/Countries/China/china2.jpg",
+      "thirdImg": "../Countries/Countries/China/china3.jpg",
+      "description": "China (Chinese: 中国; pinyin: Zhōngguó), officially the Peoples Republic of China (PRC; Chinese: 中华人民共和国; pinyin: Zhōnghuá Rénmín Gònghéguó), is a country in East Asia. It is the worlds most populous country, with a population of more than 1.4 billion. China spans five geographical time zones and borders 14 Countries, the second most of any country in the world after Russia. Covering an area of approximately 9.6 million square kilometers (3,700,000 sq mi), it is the worlds third or fourth largest country.[i] The country consists of 23 provinces,[j] five autonomous regions, four municipalities, and two Special Administrative Regions (Hong Kong and Macau). The national capital is Beijing."
+    },
+    {
+      "id": 6,
+      "name": "Colombia",
+      "firstImg": "../Countries/Countries/Colombia/colombia.jpg",
+      "secondImg": "../Countries/Countries/Colombia/colombia2.jpg",
+      "thirdImg": "../Countries/Countries/Colombia/colombia3.jpg",
+      "description": "Colombia (/kə'lʌmbiə/  kə-LUM-bee-ə, /-'lɒm-/ -⁠LOM-;[12] Spanish: [ko'lombja] ), officially the Republic of Colombia,[a] is a transcontinental country spanning South America and an insular region in North America. It is bordered by the Caribbean Sea to the north, Venezuela to the east, Brazil to the southeast, Ecuador and Peru to the south, the Pacific Ocean to the west, and Panama to the northwest. Colombia comprises 32 departments and the Capital District of Bogotá, the country's largest city. It covers an area of 1,141,748 square kilometers (440,831 sq mi), with a population of 50 million. Colombia's rich cultural heritage reflects influences by various Amerindian civilizations, European settlement, African slaves, and immigration from Europe and the Middle East. Spanish is the nation's official language, besides which over 70 languages are spoken. Colombia has been inhabited by various indigenous peoples since at least 12,000 BCE, including the Muisca, Quimbaya, and the Tairona."
+    },
+    {
+      "id": 7,
+      "name": "Croatia",
+      "firstImg": "../Countries/Countries/Croatia/croatia1.jpg",
+      "secondImg": "../Countries/Countries/Croatia/croatia2.jpg",
+      "thirdImg": "../Countries/Countries/Croatia/croatia3.jpg",
+      "description": "Croatia (/kroʊ'eɪʃə/ kroh-AY-shə; Croatian: Hrvatska, pronounced [xř̩ʋaːtskaː]), officially the Republic of Croatia (Croatian: Republika Hrvatska, (audio speaker iconlisten)),[e] is a country at the crossroads of Central and Southeast Europe. It shares a coastline along the Adriatic Sea, and borders Slovenia to the northwest, Hungary to the northeast, Serbia to the east, Bosnia and Herzegovina and Montenegro to the southeast, and shares a maritime border with Italy to the west and southwest. Croatia's capital and largest city, Zagreb, forms one of the country's primary subdivisions, with twenty counties. The country spans an area of 56,594 square kilometres (21,851 square miles), with a population of nearly 3.9 million."
+    },
+    {
+      "id": 8,
+      "name": "Denmark",
+      "firstImg": "../Countries/Countries/Denmark/denmark1.jpg",
+      "secondImg": "../Countries/Countries/Denmark/denmark2.jpg",
+      "thirdImg": "../Countries/Countries/Denmark/denmark3.jpg",
+      "description": "Denmark (Danish: Danmark, pronounced ['tænmɑk]) is a Nordic country in Northern Europe. It is the most populous and politically central constituent of the Kingdom of Denmark,[N 13] a constitutionally unitary state that includes the autonomous territories of the Faroe Islands and Greenland in the North Atlantic Ocean.[17] European Denmark[N 3] is the southernmost of the Scandinavian Countries, lying southwest of Sweden, south of Norway,[N 14] and north of Germany.Spanning a total area of 42,943 km2 (16,580 sq mi),[9] it consists of the peninsula of Jutland and an archipelago of 443 named islands,[18] of which the largest are Zealand, Funen and the North Jutlandic Island. Denmark's geography is characterised by flat, arable land, sandy coasts, low elevation, and a temperate climate. As of 2022, it had a population of 5.87 million (1 November 2021), of which 800,000 live in the capital and largest city, Copenhagen.[19] Denmark exercises hegemonic influence in the Danish Realm, devolving powers to handle internal affairs. Home rule was established in the Faroe Islands in 1948 and in Greenland in 1979; the latter obtained further autonomy in 2009."
+    },
+    {
+      "id": 9,
+      "name": "Egypt",
+      "firstImg": "../Countries/Countries/Egypt/egypt1.jpg",
+      "secondImg": "../Countries/Countries/Egypt/egypt2.jpg",
+      "thirdImg": "../Countries/Countries/Egypt/egypt3.jpg",
+      "description": "Egypt (Arabic: مِصر, romanized: Miṣr), officially the Arab Republic of Egypt, is a transcontinental country spanning the northeast corner of Africa and southwest corner of Asia by a land bridge formed by the Sinai Peninsula. It is bordered by the Mediterranean Sea to the north, the Gaza Strip (Palestine) and Israel to the northeast, the Red Sea to the east, Sudan to the south, and Libya to the west. The Gulf of Aqaba in the northeast, whose maximum width is 24 km (15 mi), separates Egypt from Jordan and Saudi Arabia. Cairo is the country's capital and largest city."
+    },
+    {
+      "id": 10,
+      "name": "United Kingdom",
+      "firstImg": "../Countries/Countries/Englend/england.jpg",
+      "secondImg": "../Countries/Countries/Englend/england2.jpg",
+      "thirdImg": "../Countries/Countries/Englend/england3.jpg",
+      "description": "England is a country that is part of the United Kingdom.[6][7][8] It shares land borders with Wales to its west and Scotland to its north. The Irish Sea lies northwest of England and the Celtic Sea to the southwest. England is separated from continental Europe by the North Sea to the east and the English Channel to the south. The country covers five-eighths of the island of Great Britain, which lies in the North Atlantic, and includes over 100 smaller islands, such as the Isles of Scilly and the Isle of Wight."
+    },
+    {
+      "id": 11,
+      "name": "France",
+      "firstImg": "../Countries/Countries/france/france.jpg",
+      "secondImg": "../Countries/Countries/france/france2.jpg",
+      "thirdImg": "../Countries/Countries/france/france3.jpg",
+      "description": "France (French: [fʁɑ̃s]), officially the French Republic (French: République française[12]), is a transcontinental country spanning Western Europe and overseas regions and territories in the Americas and the Atlantic, Pacific and Indian Oceans.[XII] Its metropolitan area extends from the Rhine to the Atlantic Ocean and from the Mediterranean Sea to the English Channel and the North Sea; overseas territories include French Guiana in South America, Saint Pierre and Miquelon in the North Atlantic, the French West Indies, and many islands in Oceania and the Indian Ocean. Due to its several coastal territories, France has the largest exclusive economic zone in the world. France borders Belgium, Luxembourg, Germany, Switzerland, Monaco, Italy, Andorra and Spain in Europe, as well as the Netherlands, Suriname and Brazil in the Americas. Its eighteen integral regions (five of which are overseas) span a combined area of 643,801 km2 (248,573 sq mi) and over 67 million people (as of May 2021).[3] France is a unitary semi-presidential republic with its capital in Paris, the country's largest city and main cultural and commercial centre; other major urban areas include Marseille, Lyon, Toulouse, Lille, Bordeaux, and Nice."
+    },
+    {
+      "id": 12,
+      "name": "Georgia",
+      "firstImg": "../Countries/Countries/georgia/georgia.jpg",
+      "secondImg": "../Countries/Countries/georgia/georgia2.jpg",
+      "thirdImg": "../Countries/Countries/georgia/georgia3.jpg",
+      "description": "Georgia (Georgian: საქართველო, romanized: Sakartvelo; IPA: [sɑkʰɑrtʰvɛlɔ]) is a country located in the Caucasus, at the intersection of Eastern Europe and Western Asia. It is bounded by the Black Sea to the west, by Russia to the north and east, by Turkey to the southwest, by Armenia to the south, and by Azerbaijan to the southeast. The country covers an area of 69,700 square kilometres (26,900 sq mi), and has a population of 3.7 million people (excluding the Russian-occupied Georgian territories).[10] Georgia is a representative democracy governed as a unitary parliamentary republic.[12][13] Tbilisi is its capital as well as its largest city, and is home to roughly a third of the Georgian population."
+    },
+    {
+      "id": 13,
+      "name": "Germany",
+      "firstImg": "../Countries/Countries/germany/Germany1.jpg",
+      "secondImg": "../Countries/Countries/germany/Germany2.jpg",
+      "thirdImg": "../Countries/Countries/germany/Germany3.jpg",
+      "description": "Germany (German: Deutschland, pronounced [ˈdɔʏtʃlant]), officially the Federal Republic of Germany,[e] is a country in Central Europe. It is the second most populous country in Europe after Russia, and the most populous member state of the European Union. Germany is situated between the Baltic and North seas to the north, and the Alps to the south; it covers an area of 357,022 square kilometres (137,847 sq mi), with a population of over 83 million within its 16 constituent states. Germany borders Denmark to the north, Poland and the Czech Republic to the east, Austria and Switzerland to the south, and France, Luxembourg, Belgium, and the Netherlands to the west. The nation's capital and largest city is Berlin, and its financial centre is Frankfurt; the largest urban area is the Ruhr."
+    },
+    {
+      "id": 14,
+      "name": "Greece",
+      "firstImg": "../Countries/Countries/Greece/greece.jpg",
+      "secondImg": "../Countries/Countries/Greece/greece2.jpg",
+      "thirdImg": "../Countries/Countries/Greece/greece3.jpg",
+      "description": "Greece (Greek: Ελλάδα, romanized: Elláda, [eˈlaða]), officially the Hellenic Republic,[a] is a country in Southeast Europe. It is situated on the southern tip of the Balkans, and is located at the crossroads of Europe, Asia, and Africa. Greece shares land borders with Albania to the northwest, North Macedonia and Bulgaria to the north, and Turkey to the northeast. The Aegean Sea lies to the east of the mainland, the Ionian Sea to the west, and the Sea of Crete and the Mediterranean Sea to the south. Greece has the longest coastline on the Mediterranean Basin, featuring thousands of islands. The country consists of nine traditional geographic regions, and has a population of approximately 10.7 million. Athens is the nation's capital and largest city, followed by Thessaloniki"
+    },
+    {
+      "id": 16,
+      "name": "Italy",
+      "firstImg": "../Countries/Countries/italy/italy1.jpg",
+      "secondImg": "../Countries/Countries/italy/italy2.jpg",
+      "thirdImg": "../Countries/Countries/italy/italy3.jpg",
+      "description": "Italy (Italian: Italia [iˈtaːlja]), officially the Italian Republic or Republic of Italy[13][14] (Italian: Repubblica Italiana [reˈpubblika itaˈljaːna]),[15][16] is a country consisting of a peninsula delimited by the Alps and several islands surrounding it,[17] whose territory largely coincides with the homonymous geographical region.[18] Italy is located in the middle of the Mediterranean Sea, in Southern Europe;[19][20][21] it is also considered part of Western Europe.[22][23] A unitary parliamentary republic with Rome as its capital and largest city, the country covers a total area of 301,230 km2 (116,310 sq mi) and shares land borders with France, Switzerland, Austria, Slovenia, as well as the enclaved microstates of Vatican City and San Marino. Italy has a territorial exclave in Switzerland, Campione. With over 60 million inhabitants,[24] Italy is the third-most populous member state of the European Union."
+    },
+    {
+      "id": 17,
+      "name": "Japan",
+      "firstImg": "../Countries/Countries/Japan/japon1.jpg",
+      "secondImg": "../Countries/Countries/Japan/japon2.jpg",
+      "thirdImg": "../Countries/Countries/Japan/japon3.jpg",
+      "description": "Japan (Japanese: 日本, Nippon or Nihon,[nb 1] and formally 日本国)[nb 2] is an island country in East Asia. It is situated in the northwest Pacific Ocean, and is bordered on the west by the Sea of Japan, while extending from the Sea of Okhotsk in the north toward the East China Sea and Taiwan in the south. Japan is a part of the Ring of Fire, and spans an archipelago of 6852 islands covering 377,975 square kilometers (145,937 sq mi); the five main islands are Hokkaido, Honshu (the 'mainland'), Shikoku, Kyushu, and Okinawa. Tokyo is the nation's capital and largest city; other major cities include Yokohama, Osaka, Nagoya, Sapporo, Fukuoka, Kobe, and Kyoto."
+    },
+    {
+      "id": 18,
+      "name": "Maldives",
+      "firstImg": "../Countries/Countries/maldives/maldives.jpg",
+      "secondImg": "../Countries/Countries/maldives/maldives2.jpg",
+      "thirdImg": "../Countries/Countries/maldives/maldives3.jpg.jpg",
+      "description": "Maldives (/ˈmɔːldiːvz/, US: /ˈmɔːldaɪvz/; Dhivehi: ދިވެހިރާއްޖެ, romanized: Dhivehi Raajje, Dhivehi pronunciation: [d̪iʋehiɾəːdʒːe]), officially the Republic of Maldives, is an archipelagic country in the Indian subcontinent of Asia, situated in the Indian Ocean. It lies southwest of Sri Lanka and India, about 750 kilometres (470 miles; 400 nautical miles) from the Asian continent's mainland. The chain of 26 atolls stretches from Ihavandhippolhu Atoll in the north to Addu Atoll in the south (across the Equator).Comprising a territory spanning roughly 90,000 square kilometres (35,000 sq mi) including the sea, land area of all the islands comprises 298 square kilometres (115 sq mi), Maldives is one of the world's most geographically dispersed sovereign states and the smallest Asian country as well as one of the smallest Muslim-majority Countries by land area and, with around 557,751 inhabitants, the 2nd least populous country in Asia. Malé is the capital and the most populated city, traditionally called the 'King's Island' where the ancient royal dynasties ruled for its central location."
+    },
+    {
+      "id": 19,
+      "name": "Mexico",
+      "firstImg": "../Countries/Countries/Mexico/mexico.jpg",
+      "secondImg": "../Countries/Countries/Mexico/mexico2.jpg",
+      "thirdImg": "../Countries/Countries/Mexico/mexico3.jpg",
+      "description": "Mexico,[a][b] officially the United Mexican States,[c] is a country in the southern portion of North America. It is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico.[11] Mexico covers 1,972,550 square kilometers (761,610 sq mi),[12] making it the world's 13th-largest country by area; with approximately 126,014,024 inhabitants,[1] it is the 10th-most-populous country and has the most Spanish-speakers. Mexico is organized as a federation comprising 31 states and Mexico City,[13] its capital and largest metropolis. Other major urban areas include Guadalajara, Monterrey, Puebla, Toluca, Tijuana, Ciudad Juárez, and León."
+    },
+    {
+      "id": 20,
+      "name": "Netherlands",
+      "firstImg": "../Countries/Countries/Netherlands/netherkabds1.jpg",
+      "secondImg": "../Countries/Countries/Netherlands/netherkabds2.jpg",
+      "thirdImg": "../Countries/Countries/Netherlands/netherkabds3.jpg",
+      "description": "The Netherlands (Dutch: Nederland [ˈneːdərlɑnt]), informally Holland,[15][16] is a country located in Western Europe with overseas territories in the Caribbean. It is the largest of four constituent Countries of the Kingdom of the Netherlands (the others being Aruba, Curaçao and Sint Maarten).[17][18][19] In Europe, the Netherlands consists of twelve provinces, and borders Germany to the east, Belgium to the south, with a North Sea coast-line to the north and west. It also shares maritime borders with both Countries and with the United Kingdom in the North Sea.[20] The Caribbean overseas territories—Bonaire, Sint Eustatius and Saba—became special municipalities of the country of the Netherlands in 2010.[i] The country's official language is Dutch, with West Frisian as a secondary official language in the province of Friesland, and English and Papiamento as secondary official languages in the Caribbean Netherlands.[1] Dutch Low Saxon and Limburgish are recognised regional languag"
+    },
+    {
+      "id": 21,
+      "name": "Norway",
+      "firstImg": "../Countries/Countries/Norway/norway.jpg",
+      "secondImg": "../Countries/Countries/Norway/norway2.jpg",
+      "thirdImg": "../Countries/Countries/Norway/norway3.jpg",
+      "description": "Norway, officially the Kingdom of Norway,[note 5] is a Nordic country in Northern Europe, the mainland territory of which comprises the western and northernmost portion of the Scandinavian Peninsula. The remote Arctic island of Jan Mayen and the archipelago of Svalbard also form part of Norway.[note 6] Bouvet Island, located in the Subantarctic, is a dependency of Norway; it also lays claims to the Antarctic territories of Peter I Island and Queen Maud Land. The capital and largest city in Norway is Oslo.Norway has a total area of 385,207 square kilometres (148,729 sq mi)[12] and had a population of 5,425,270 in January 2022.[14] The country shares a long eastern border with Sweden at a length of 1,619 km (1,006 mi). It is bordered by Finland and Russia to the northeast and the Skagerrak strait to the south, on the other side of which are Denmark and the United Kingdom. Norway has an extensive coastline, facing the North Atlantic Ocean and the Barents Sea. The maritime influence dominates Norway's climate, with mild lowland temperatures on the sea coasts; the interior, while colder, is also a lot milder than areas elsewhere in the world on such northerly latitudes. Even during polar night in the north, temperatures above freezing are commonplace on the coastline. The maritime influence brings high rainfall and snowfall to some areas of the country."
+    },
+    {
+      "id": 22,
+      "name": "Portugal",
+      "firstImg": "../Countries/Countries/Portugal/Portugal1.jpg",
+      "secondImg": "../Countries/Countries/Portugal/Portugal2.jpg",
+      "thirdImg": "../Countries/Countries/Portugal/Portugal3.jpg",
+      "description": "Portugal, officially the Portuguese Republic (Portuguese: República Portuguesa [ʁɛˈpuβlikɐ puɾtuˈɣezɐ]),[note 4] is a country whose mainland is located on the Iberian Peninsula of Southwestern Europe, and whose territory also includes the Atlantic archipelagos of the Azores and Madeira. It features the westernmost point in mainland Europe, and its Iberian portion is bordered to the west and south by the Atlantic Ocean and to the north and east by Spain, the sole country to have a land border with Portugal. Its two archipelagos form two autonomous regions with their own regional governments. The official and national language is Portuguese. Lisbon is the capital and largest city."
+    },
+    {
+      "id": 23,
+      "name": "Russia",
+      "firstImg": "../Countries/Countries/Russia/russia.jpg",
+      "secondImg": "../Countries/Countries/Russia/russia2.jpg",
+      "thirdImg": "../Countries/Countries/Russia/russia3.jpg",
+      "description": "Russia (Russian: Россия, tr. Rossiya, pronounced [rɐˈsʲijə]), or the Russian Federation,[c] is a transcontinental country spanning Eastern Europe and Northern Asia. It is the largest country in the world by area, covering over 17,125,191 square kilometres (6,612,073 sq mi), and encompassing one-eighth of Earth's inhabitable landmass. Russia extends across eleven time zones and borders sixteen sovereign nations, the most of any country in the world.[d] It is the ninth-most populous country and the most populous country in Europe, with a population of 145.5 million. The country's capital and largest city, Moscow, is also the largest city entirely within Europe. Saint Petersburg is Russia's cultural centre and second-largest city. Other major urban areas include Novosibirsk, Yekaterinburg, Nizhny Novgorod and Kazan."
+    },
+    {
+      "id": 24,
+      "name": "South Africa",
+      "firstImg": "../Countries/Countries/South africa/South africa.jpg",
+      "secondImg": "../Countries/Countries/South africa/South africa2.jpg",
+      "thirdImg": "../Countries/Countries/South africa/South africa3.jpg",
+      "description": "South Africa, officially the Republic of South Africa (RSA), is the southernmost country in Africa. With over 60 million people, the country is the world's 23rd-most populous nation and covers an area of 1,221,037 square kilometres (471,445 square miles). South Africa has three capital cities, with the executive, judicial and legislative branches of government based in Pretoria, Bloemfontein and Cape Town respectively. The largest city is Johannesburg. About 80% of South Africans are Indigenous South Africans.[14] The remaining population consists of Africa's largest communities of European (White South Africans), Asian (Indian South Africans and Chinese South Africans), and Multiracial (Coloured South Africans) ancestry."
+    },
+    {
+      "id": 25,
+      "name": "Spain",
+      "firstImg": "../Countries/Countries/spain/spain1.jpg",
+      "secondImg": "../Countries/Countries/spain/spain2.jpg",
+      "thirdImg": "../Countries/Countries/spain/spain3.jpg",
+      "description": "Spain (Spanish: España, [esˈpaɲa]),[a] or the Kingdom of Spain (Spanish: Reino de España),[a] is a country in southwestern Europe with parts of territory in the Atlantic Ocean and across the Mediterranean Sea.[12][h] The largest part of Spain is situated on the Iberian Peninsula; its territory also includes the Canary Islands in the Atlantic Ocean, the Balearic Islands in the Mediterranean Sea, the autonomous cities of Ceuta and Melilla, and several minor overseas territories also scattered along the Moroccan coast of the Alboran Sea.[13] The country's mainland is bordered to the south by Gibraltar; to the south and east by the Mediterranean Sea; to the north by France, Andorra and the Bay of Biscay; and to the west by Portugal and the Atlantic Ocean."
+    },
+    {
+      "id": 26,
+      "name": "Sweden",
+      "firstImg": "../Countries/Countries/Sweden/sweeden1.jpg",
+      "secondImg": "../Countries/Countries/Sweden/sweeden2.jpg",
+      "thirdImg": "../Countries/Countries/Sweden/sweeden3.jpg",
+      "description": "Sweden (Swedish: Sverige [ˈsvæ̌rjɛ]), officially the Kingdom of Sweden (Swedish: Konungariket Sverige [ˈkôːnɵŋaˌriːkɛt ˈsvæ̌rjɛ] (audio speaker iconlisten)), is a Nordic country in Northern Europe.[19] It borders Norway to the west and north, Finland to the east, and is connected to Denmark in the southwest by a bridge-tunnel across the Öresund. At 450,295 square kilometres (173,860 sq mi), Sweden is the largest country in Northern Europe, the third-largest country in the European Union, and the fifth largest country in Europe. The capital and largest city is Stockholm. Sweden has a total population of 10.4 million, the largest of the Nordic Countries;[11] and a low population density of 25.5 inhabitants per square kilometre (66/sq mi). 87% of Swedes live in urban areas, which cover 1.5% of the entire land area. The highest concentration is in the central and southern half of the country."
+    },
+    {
+      "id": 27,
+      "name": "Thailand",
+      "firstImg": "../Countries/Countries/Thailand/thailand1.png",
+      "secondImg": "../Countries/Countries/Thailand/thailand2.png",
+      "thirdImg": "../Countries/Countries/Thailand/thailand3.png",
+      "description": "Thailand[a] (/ˈtaɪlænd, ˈtaɪlənd/ TY-land, TY-lənd), historically known as Siam[b] (/saɪˈæm, ˈsaɪæm/),[11][12] officially the Kingdom of Thailand, is a country in Southeast Asia spanning 513,120 square kilometres (198,120 sq mi), with a population of almost 70 million.[6] It is bordered to the north by Myanmar and Laos, to the east by Laos and Cambodia, to the south by the Gulf of Thailand and Malaysia, and to the west by the Andaman Sea and Myanmar. Thailand also shares maritime borders with Vietnam to the southeast, and Indonesia and India to the southwest. Thailand has experienced multiple coups and military dictatorships. From 2014 to 2019 it was formally under military rule, until the military introduced a new constitution and held elections which established the framework of a parliamentary constitutional monarchy. In practice, however, structural advantages in the constitution have ensured the military's hold on power.[5] Bangkok is the nation's capital and largest city."
+    },
+    {
+      "id": 28,
+      "name": "Turkey",
+      "firstImg": "../Countries/Countries/turkey/turkey1jpg.jpg",
+      "secondImg": "../Countries/Countries/turkey/turkey2.jpg",
+      "thirdImg": "../Countries/Countries/turkey/turkey3.jpg",
+      "description": "Turkey (Turkish: Türkiye [ˈtyɾcije]), officially the Republic of Turkey (Turkish: Türkiye Cumhuriyeti [ˈtyɾcije dʒumˈhuːɾijeti] (audio speaker iconlisten)), is a transcontinental country located mainly on Anatolia in Western Asia, with a portion on the Balkans in Southeast Europe. It shares borders with Greece and Bulgaria to the northwest; the Black Sea to the north; Georgia to the northeast; Armenia, Azerbaijan, and Iran to the east; Iraq to the southeast; Syria and the Mediterranean Sea to the south; and the Aegean Sea to the west. Cyprus is located off the south coast. Turks form the vast majority of the nation's population and Kurds are the largest minority.[4] Ankara is Turkey's capital, while Istanbul is its largest city and financial centre."
+    },
+    {
+      "id": 29,
+      "name": "Ukraine",
+      "firstImg": "../Countries/Countries/Ukraine/ukraine.jpg",
+      "secondImg": "../Countries/Countries/Ukraine/ukraine2.jpg",
+      "thirdImg": "../Countries/Countries/Ukraine/ukraine3.jpg",
+      "description": "Ukraine (Ukrainian: Україна, romanized: Ukraïna, pronounced [ʊkrɐˈjinɐ]) is a country in Eastern Europe. It is the second largest country in Europe[13] after Russia, which it borders to the east and north-east.[a] Ukraine also shares borders with Belarus to the north; Poland, Slovakia, and Hungary to the west; Romania and Moldova[b] to the south; and has a coastline along the Sea of Azov and the Black Sea. It covers about 600,000 km2 (230,000 sq mi),[c] with a population of about 40 million.[14][15][d] The nation's capital and largest city is Kyiv."
+    }
+  ]
+}

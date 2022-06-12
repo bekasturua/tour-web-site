@@ -1,0 +1,48 @@
+@import "../abstracts/mixins";
+
+
+.profile_click {
+    background-color: green !important;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile_title h1 {
+    @include page_titles_fontSize;
+}
+
+
+.profile_letter {
+    border: 5px dashed rgb(149, 124, 192);
+    border-radius: 40px;
+    margin: 20px;
+}
+
+
+.profile h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.profile h1:hover {
+    color: rgb(75, 73, 73);
+}
+
+.profile_letter .letter_btn {
+    padding: 100px;
+}
+
+.change_password_btn {
+    background-color: rgb(11, 112, 155);
+    color: white;
+    border-radius: 100px;
+    font-size: 24px;
+}
+
+.change_password_btn:hover {
+    background-color: green;
+}
+

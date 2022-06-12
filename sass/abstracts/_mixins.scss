@@ -1,0 +1,22 @@
+@mixin about_us_title {
+    border: 2px dashed rgb(13, 8, 156);
+    border-radius: 100px;
+    margin: 50px;
+    padding: 50px;
+}
+
+
+@mixin tickets_child_titles {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+@mixin page_titles_fontSize {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 60px;
+}

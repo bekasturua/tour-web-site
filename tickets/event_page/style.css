@@ -1,0 +1,97 @@
+.footer_tickets_click a {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+
+.tickets_click button {
+    background-color: green;
+}
+
+.choice_parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tickets_title h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.tickets_title h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.tickets_btn {
+    display: flex;
+    justify-content: space-around;
+    border: 5px dashed rgb(9, 102, 164);
+    border-radius: 100px;
+    margin: 50px;
+}
+
+.tickets_btn button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 100px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.event_btn button {
+    background-color: green;
+}
+
+.tickets_btn button:hover {
+    background: green;
+    font-weight: bold;
+
+}
+
+
+.event_title h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.event_title h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.event_tickets_btn {
+    display: flex;
+    justify-content: space-around;
+    border: 5px dashed rgb(9, 102, 164);
+    border-radius: 100px;
+    margin: 50px;
+}
+
+.event_tickets_btn button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 100px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.event_tickets_btn button:hover {
+    background-color: rgb(201, 18, 185);
+}

@@ -1,0 +1,57 @@
+.footer_support_click a {
+  color: white;
+  border-bottom: 5px solid white; }
+
+.support {
+  display: flex;
+  justify-content: space-around; }
+
+.support_letter {
+  border: 5px dashed black;
+  border-radius: 40px;
+  margin: 20px; }
+
+.support h1 {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.support_title {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 60px; }
+
+.support h1:hover {
+  color: #4b4949; }
+
+.support_letter input {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: #9958aa;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+  padding-right: 185px;
+  font-size: 24px;
+  font-weight: bold; }
+
+.support_letter input:hover {
+  background-color: #9c00d0; }
+
+::placeholder {
+  color: black; }
+
+.support_letter button {
+  background-color: #2600ff;
+  color: white;
+  border-radius: 20px;
+  padding: 45px;
+  margin-bottom: 50px;
+  margin-left: 38%;
+  border-radius: 50%; }
+
+.support_letter button:hover {
+  background-color: green;
+  color: white; }

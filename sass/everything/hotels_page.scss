@@ -1,0 +1,97 @@
+@import "../abstracts/mixins";
+
+
+.footer_hotel_click a {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.choice_parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel_click button {
+    background-color: green;
+}
+
+.hotels_title h1 {
+    @include page_titles_fontSize;
+
+}
+
+.hotels_title h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.hotels_btn {
+    display: flex;
+    justify-content: space-around;
+    border: 5px dashed rgb(9, 102, 164);
+    border-radius: 100px;
+    margin: 50px;
+}
+
+.hotels_btn button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 100px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.hotel_btn button {
+    background-color: green;
+}
+
+
+.hotel_reserve_btn button {
+    background-color: green;
+}
+
+
+
+.hotel_reserve_title h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.hotel_reserve_title h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.hotel_reserve_tickets_btn {
+    display: flex;
+    justify-content: space-around;
+    border: 5px dashed rgb(9, 102, 164);
+    border-radius: 100px;
+    margin: 50px;
+}
+
+.hotel_reserve_tickets_btn button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 100px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.hotel_reserve_tickets_btn button:hover {
+    background-color: rgb(201, 18, 185);
+}

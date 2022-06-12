@@ -1,0 +1,65 @@
+.footer {
+    background-image: url(../../../../footer-background.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    
+}
+
+.footer_child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer_child a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    transition: all 0.4s ease-out;
+
+}
+
+.footer_child a:hover  {
+    color: white;
+    border-bottom: 5px solid white;
+}
+.fa {
+    padding: 10px;
+    font-size: 70px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.footer_more_info_parent {
+    border-color: black;
+}

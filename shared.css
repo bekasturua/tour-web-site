@@ -1,0 +1,245 @@
+body {
+    font-size: 24px;
+    background-image: url(../background-color.jpg);
+    padding: 10px;
+    margin: 10px;
+    background-repeat: repeat;
+}
+
+.navigation_start a {
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.search_grandfather_div {
+    border: 2px dashed rgb(8, 11, 184);
+    border-radius: 100px;
+    padding: 6px;
+}
+
+.search_father_div  {
+    border: 2px dashed rgb(152, 14, 154);
+    border-radius: 100px;
+    padding: 5px;
+}
+.search_child {
+    border: 3px dashed rgb(210, 9, 9);
+    border-radius: 100px;
+    padding: 20px;
+}
+
+
+#search {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    width: 200px;
+    height: 45px;
+    outline: none;
+    margin-left: 5px;
+    border-radius: 50px;
+    
+}
+
+::placeholder {
+    color: black;
+    
+}
+
+.search_btn {
+    background-color: rgb(202, 141, 187);
+    color: black;
+    font: bold;
+    font-size: 20px;
+    
+    padding: 7px;
+
+    border-radius: 50%;
+
+}
+
+#search:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.search_btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.navigation_btn button {
+    background-color: rgb(128, 6, 133);
+    color: white;
+    /* width: 100px;
+    height: 60px; */
+    cursor: pointer;
+    border-radius: 40%;
+    outline: auto;
+    outline-style: groove;
+    padding: 5px;   
+    font-size: 25px;
+}
+
+.navigation_btn button:hover {
+    background-color: rgb(26, 182, 52);
+}
+
+.navigacion_login_btn button {
+    background-color: rgb(168, 18, 63);
+    color: white;
+    /* width: 100px;
+    height: 60px; */
+    cursor: pointer;
+    border-radius: 30%;
+    outline: auto;
+    outline-style: groove;
+    padding: 5px;
+    font-size: 25px;
+}
+.navigacion_login_btn button:hover {
+    background-color: rgb(9, 202, 228);
+    color: black;
+}
+
+.navigacion_profile_btn button {
+    background-color: blue;
+    color: white;
+    /* width: 100px;
+    height: 60px; */
+    cursor: pointer;
+    border-radius: 30%;
+    outline: auto;
+    outline-style: groove;
+    margin-right: 30px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.navigacion_profile_btn button:hover {
+    background-color: rgb(124, 29, 92);
+    
+}
+
+.choice {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.choice button {
+    background-color: rgb(160, 24, 115);
+    color: white;
+    /* width: 180px;
+    height: 90px; */
+    cursor: pointer;
+    border-radius: 50px;
+    outline: auto;
+    outline-style: groove;
+    font-size: 26px;
+    padding: 20px;
+    margin: 3px;
+    font-size: 25px;
+    
+}
+
+.choice button:hover {
+    background-color: rgb(11, 137, 146);
+    outline: auto;
+    outline-style: groove;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  footer */
+
+
+
+.footer {
+    background-image: url(./footer-background.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    
+}
+
+.footer_child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer_child a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    
+
+    
+}
+
+.footer_child a:hover  {
+    color: white;
+    border-bottom: 5px solid white;
+}
+.fa {
+    padding: 10px;
+    font-size: 70px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.footer_more_info_parent {
+    border-color: black;
+}

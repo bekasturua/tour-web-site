@@ -1,0 +1,76 @@
+.contact_click button {
+  background-color: green; }
+
+.navigation_btn {
+  display: flex;
+  justify-content: space-around; }
+
+.footer_contact_click a {
+  color: white;
+  border-bottom: 5px solid white; }
+
+/* first side of contact */
+.contact {
+  display: flex;
+  justify-content: space-around; }
+
+.contact_title h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 60px; }
+
+.contact_letter {
+  border: 5px dashed #957cc0;
+  border-radius: 40px;
+  margin: 20px; }
+
+.contact h1 {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.contact h1:hover {
+  color: #4b4949; }
+
+.contact_letter input {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: #4fb1bc;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+  padding-right: 185px;
+  font-size: 24px;
+  font-weight: bold; }
+
+.contact_letter .letter_btn {
+  padding: 100px; }
+
+.contact_letter input:hover {
+  background-color: #7ad3d3; }
+
+::placeholder {
+  color: black; }
+
+.contact_letter button {
+  background-color: #1709b8;
+  color: white;
+  border-radius: 20px;
+  padding: 45px;
+  margin-bottom: 50px;
+  margin-left: 48%; }
+
+.contact_letter button:hover {
+  background-color: green; }
+
+/*  second side of contact */
+.contact_text {
+  border: 5px dashed #957cc0;
+  border-radius: 40px;
+  margin: 20px;
+  padding: 20px; }
+
+.contact_text h4 {
+  padding: 10px; }
