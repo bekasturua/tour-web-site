@@ -329,25 +329,8 @@
       "email": "beqa",
       "password": "beqa",
       "id": 1
-    },
-    {
-      "username": "ana",
-      "email": "ana",
-      "password": "12345",
-      "id": 2
-    },
-    {
-      "username": "gg",
-      "email": "gg",
-      "password": "gg",
-      "id": 3
-    },
-    {
-      "username": "ggg",
-      "email": "ggg",
-      "password": "ggg",
-      "id": 4
     }
+    
   ],
   "countriesInfo": [
     {
