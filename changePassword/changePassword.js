@@ -15,7 +15,7 @@ submitBtn.addEventListener("click", () => {
 });
 
 function changePassword(user) {
-  fetch(`http://localhost:3000/users/${user.id}`, {
+  fetch(`https://easytravel-d1779-default-rtdb.firebaseio.com/users/${user.id}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",

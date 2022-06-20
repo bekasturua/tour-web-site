@@ -1,11 +1,11 @@
 export async function getProductList() {
-  const res = await fetch("http://localhost:3000/products");
+  const res = await fetch("https://easytravel-d1779-default-rtdb.firebaseio.com/products");
   const products = await res.json();
   return products;
 }
 
 export async function getInternalCountriesList() {
-  const res = await fetch("http://localhost:3000/countriesInfo");
+  const res = await fetch("https://easytravel-d1779-default-rtdb.firebaseio.com/countriesInfo");
   const countriesInfo = await res.json();
   return countriesInfo;
 }
