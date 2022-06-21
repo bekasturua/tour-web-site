@@ -132,7 +132,9 @@
       </div>
       <div class="navigacion_login_btn">
         <a href="./index.html"
-          ><button class="my_city_click"><i class="fa-solid fa-city"></i> My Citys</button></a
+          ><button class="my_city_click">
+            <i class="fa-solid fa-city"></i> My Citys
+          </button></a
         >
         <a href="../favorites/index.html"
           ><button><i class="fa-solid fa-star"></i> Favorites</button></a
@@ -182,29 +184,35 @@
     </section>
 
     <section>
-      <h1></i> FAQ</h1>
+      <div class="citys_title">
+        <h1><i class="fa-solid fa-city"></i> Plan Of My Citys</h1>
+      </div>
       <div>
         <body>
-          <h1>Plan Of My Countries</h1>
-          <p>Enter the City.</p>
-          <p>Click where you visited and make it green.</p>
-          <p>Remember which country you want to visit in the future</p>
-          <form id="form">
-            <input
-              type="text"
-              class="input"
-              id="input"
-              placeholder="Choose Your City."
-              autocomplete="off"
-            />
-      
-            <ul class="todos" id="todos"></ul>
-          </form>
-          <small
-            >Executed City (Left click). <br />
-            Delete City (Right click). </small
-          >
-      
+          <div class="rules_one">
+            <p>Enter the City.</p>
+            <p>Click where you visited and make it green.</p>
+            <p>Remember which country you want to visit in the future</p>
+          </div>
+          <div class="citys_input">
+            <form id="form">
+              <input
+                type="text"
+                class="input"
+                id="input"
+                placeholder="Choose Your City."
+                autocomplete="off"
+              />
+              <ul class="todos" id="todos"></ul>
+            </form>
+          </div>
+          <div class="rules_second">
+            <small
+              >Executed City (Left click). <br />
+              Delete City (Right click).
+            </small>
+          </div>
+
           <script src="script.js"></script>
         </body>
       </div>
