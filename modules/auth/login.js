@@ -13,7 +13,7 @@ function userLogin() {
 }
 
 export function loginUser(email, password) {
-  fetch("https://easytravel-d1779-default-rtdb.firebaseio.com/users")
+  fetch("https://easytravel-d1779-default-rtdb.firebaseio.com/users.json")
     .then((res) => {
       return res.json();
     })

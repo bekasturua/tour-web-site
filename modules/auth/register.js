@@ -21,7 +21,7 @@ function userRegister() {
 
   if (password === repeatPassword) {
     const data = { username: username, email: email, password: password };
-    fetch("https://easytravel-d1779-default-rtdb.firebaseio.com/users")
+    fetch("https://easytravel-d1779-default-rtdb.firebaseio.com/users.json")
       .then((res) => {
         return res.json();
       })
@@ -36,7 +36,7 @@ function userRegister() {
 }
 
 function registerUser(data) {
-  fetch("https://easytravel-d1779-default-rtdb.firebaseio.com/users", {
+  fetch("https://easytravel-d1779-default-rtdb.firebaseio.com/users.json", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
