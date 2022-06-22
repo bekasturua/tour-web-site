@@ -43,6 +43,6 @@ function registerUser(data) {
     },
     body: JSON.stringify(data),
   }).then(() => {
-    loginUser(data.username, data.password);
+    loginUser(data.email, data.password);
   });
 }

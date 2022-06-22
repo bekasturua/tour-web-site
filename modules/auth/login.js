@@ -21,8 +21,7 @@ export function loginUser(email, password) {
       const users = Object.entries(usersJson).map((userJson) => {
         return { ...userJson[1], id: userJson[0] };
       });
-      console.log(users);
-      const user = Object.values(users).filter(
+      const user = users.filter(
         (user) => user.email === email && user.password === password
       );
       if (user.length === 1) {
