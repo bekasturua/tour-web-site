@@ -17,8 +17,12 @@ export function loginUser(email, password) {
     .then((res) => {
       return res.json();
     })
-    .then((users) => {
-      const user = users.filter(
+    .then((usersJson) => {
+      const users = Object.entries(usersJson).map((userJson) => {
+        return { ...userJson[1], id: userJson[0] };
+      });
+      console.log(users);
+      const user = Object.values(users).filter(
         (user) => user.email === email && user.password === password
       );
       if (user.length === 1) {
