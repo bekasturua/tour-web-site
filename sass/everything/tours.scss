@@ -1,90 +1,86 @@
 @import "../abstracts/mixins";
 
-
-
 .footer_tours_click a {
-    color: white !important;
-    border-bottom: 5px solid white !important;
+  color: white !important;
+  border-bottom: 5px solid white !important;
 }
 
 .choice_parent {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tours-click button {
-    background-color: green !important;
+  background-color: green !important;
 }
 
 .tours_title h1 {
-    @include page_titles_fontSize;
-
+  @include page_titles_fontSize;
 }
 
 .tours {
-    display: flex;
-    border: 2px solid rgb(134, 76, 177);
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: flex;
+  border: 2px solid rgb(134, 76, 177);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .tours:hover {
-    box-shadow: 10px 10px 10px 10px #6c089e; 
+  box-shadow: 10px 10px 10px 10px #6c089e;
 }
 
-
 .tours h1 {
-    border-bottom: 3px dashed rgb(0, 0, 0);
-    font-size: 45px;
+  border-bottom: 3px dashed rgb(0, 0, 0);
+  font-size: 45px;
 }
 
 .tours li {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .travel_img img {
-    width: 50vw;
-    height: 70vh;
-    margin-right: 20px;
-    cursor: grab;
+  width: 50vw;
+  height: 70vh;
+  margin-right: 20px;
+  cursor: grab;
 }
 
 .tours_text img {
-    width: 127px;
-    height: 77px;
+  width: 127px;
+  height: 77px;
 }
 
 .tours_text h2 {
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .tours_text p {
-    font-size: 40px;
-    margin-top: 50px;
-    font-weight: bold;
+  font-size: 40px;
+  margin-top: 50px;
+  font-weight: bold;
 }
 
 .tour_buy {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tour_buy button {
-    background-color: blue;
-    color: white;
-    padding: 30px 80px;
-    margin: 20px;
-    border-radius: 50px;
-    font-weight: bold;
-    font-size: 20px;
+  background-color: blue;
+  color: white;
+  padding: 30px 80px;
+  margin: 20px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .tour_buy button:hover {
-    background-color: green;
+  background-color: green;
 }
 
 .tours_text {
-    margin-left: 100px;
+  margin-left: 100px;
 }

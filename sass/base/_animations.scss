@@ -1,25 +1,24 @@
 @keyframes login_animation {
-    0% {
-        margin-left: 90%;
-        margin-right: 30%;
-        margin-top: 10%;
-        transform:translate(-50%,-50%) scale(0);
-    }
-    100% {
-        margin-left: 35%;
-        margin-right: 30%;
-        margin-top: 10%;
-    }
-} 
-
+  0% {
+    margin-left: 90%;
+    margin-right: 30%;
+    margin-top: 10%;
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    margin-left: 35%;
+    margin-right: 30%;
+    margin-top: 10%;
+  }
+}
 
 @keyframes register_animation {
-    0% {
-        margin-left: 320%;
-        transform:translate(-50%,-50%) scale(0);
-    }
-    100% {
-        margin-left: 130%;
-        margin-top: 30%;
-    }
-} 
+  0% {
+    margin-left: 320%;
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    margin-left: 130%;
+    margin-top: 30%;
+  }
+}

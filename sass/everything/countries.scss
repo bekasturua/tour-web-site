@@ -1,49 +1,47 @@
 @import "../abstracts/mixins";
 
 .countries_click button {
-    background-color: green;
+  background-color: green;
 }
 
 .call_covid_info {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .contrys_title h1 {
-    @include page_titles_fontSize;
-
+  @include page_titles_fontSize;
 }
 
 .Countries {
-    display: flex;
-    border: 2px solid rgb(134, 76, 177);
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: flex;
+  border: 2px solid rgb(134, 76, 177);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .Countries:hover {
-    box-shadow: 5px 10px 15px #0f06bd; 
+  box-shadow: 5px 10px 15px #0f06bd;
 }
 
-
 .Countries h1 {
-    border-bottom: 3px dashed rgb(0, 0, 0);
-    font-size: 45px;
+  border-bottom: 3px dashed rgb(0, 0, 0);
+  font-size: 45px;
 }
 
 .Countries h4 {
-    margin-top: 30px;
-    font-size: 25px;
+  margin-top: 30px;
+  font-size: 25px;
 }
 
 .carousel-item img {
-    width: 50vw;
-    height: 70vh;
-    margin-right: 20px;
-    cursor: grab;
+  width: 50vw;
+  height: 70vh;
+  margin-right: 20px;
+  cursor: grab;
 }
 
 .Countries_text img {
-    width: 127px;
-    height: 77px;
+  width: 127px;
+  height: 77px;
 }

@@ -2,49 +2,46 @@
 @import "../components/button";
 
 .navigation_start a {
-    cursor: pointer;
-    margin-left: 30px;
+  cursor: pointer;
+  margin-left: 30px;
 }
 
 .navigation_btn {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .search_grandfather_div {
-    border: 2px dashed rgb(8,11, 184);
-    border-radius: 100px;
-    padding: 6px;
+  border: 2px dashed rgb(8, 11, 184);
+  border-radius: 100px;
+  padding: 6px;
 }
 
-.search_father_div  {
-    border: 2px dashed rgb(152, 14, 154);
-    border-radius: 100px;
-    padding: 5px;
+.search_father_div {
+  border: 2px dashed rgb(152, 14, 154);
+  border-radius: 100px;
+  padding: 5px;
 }
 .search_child {
-    border: 3px dashed rgb(210, 9, 9);
-    border-radius: 100px;
-    padding: 20px;
+  border: 3px dashed rgb(210, 9, 9);
+  border-radius: 100px;
+  padding: 20px;
 }
 
-
 #search {
-    background-color: rgb(255, 255, 255);
-    color: white;
-    color: rgb(0, 0, 0);
-    font-size: 26px;
-    width: 200px;
-    height: 45px;
-    outline: none;
-    margin-left: 5px;
-    border-radius: 50px;
-    
+  background-color: rgb(255, 255, 255);
+  color: white;
+  color: rgb(0, 0, 0);
+  font-size: 26px;
+  width: 200px;
+  height: 45px;
+  outline: none;
+  margin-left: 5px;
+  border-radius: 50px;
 }
 
 ::placeholder {
-    color: black;
-    
+  color: black;
 }
 
 // .search_btn {
@@ -58,113 +55,98 @@
 // }
 
 #search:hover {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 .search_btn:hover {
-    background-color: rgb(0, 158, 175);
-    color: black;
+  background-color: rgb(0, 158, 175);
+  color: black;
 }
 
-
-
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logout_click {
-    display: none;
+  display: none;
 }
 
-
-
-
-
 .navigation_btn button {
-    background-color: rgb(128, 6, 133);
-    color: white;
-    cursor: pointer;
-    border-radius: 40%;
-    outline: auto;
-    outline-style: groove;
-    padding: 5px;   
-    font-size: 25px;
-    transition: all 0.3s ease-out;
-
+  background-color: rgb(128, 6, 133);
+  color: white;
+  cursor: pointer;
+  border-radius: 40%;
+  outline: auto;
+  outline-style: groove;
+  padding: 5px;
+  font-size: 25px;
+  transition: all 0.3s ease-out;
 }
 
 .navigation_btn button:hover {
-    background-color: rgb(54, 11, 66);
+  background-color: rgb(54, 11, 66);
 }
 
 .navigacion_login_btn button {
-    background-color: rgb(11, 129, 133);
-    color: white;
-    cursor: pointer;
-    border-radius: 30%;
-    outline: auto;
-    outline-style: groove;
-    padding: 5px;
-    font-size: 25px;
-    transition: all 0.3s ease-out;
-
+  background-color: rgb(11, 129, 133);
+  color: white;
+  cursor: pointer;
+  border-radius: 30%;
+  outline: auto;
+  outline-style: groove;
+  padding: 5px;
+  font-size: 25px;
+  transition: all 0.3s ease-out;
 }
 .navigacion_login_btn button:hover {
-    background-color: rgb(12, 56, 74);
+  background-color: rgb(12, 56, 74);
 }
 .navigacion_profile_btn {
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigacion_profile_btn button {
-    background-color: blue;
-    color: white;
-    cursor: pointer;
-    border-radius: 30%;
-    outline: auto;
-    outline-style: groove;
-    margin-right: 30px;
-    padding: 5px;
-    font-size: 25px;
-    transition: all 0.3s ease-out;
-    
-
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border-radius: 30%;
+  outline: auto;
+  outline-style: groove;
+  margin-right: 30px;
+  padding: 5px;
+  font-size: 25px;
+  transition: all 0.3s ease-out;
 }
 
 .navigacion_profile_btn button:hover {
-    background-color: rgb(15, 10, 78);
+  background-color: rgb(15, 10, 78);
 }
 
 .choice {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
 }
 
 .choice button {
-    background-color: rgb(160, 24, 115);
-    color: white;
-    cursor: pointer;
-    border-radius: 50px;
-    outline: auto;
-    outline-style: groove;
-    font-size: 26px;
-    padding: 20px;
-    margin: 3px;
-    font-size: 25px;
-    transition: all 0.3s ease-out;
-
-    
+  background-color: rgb(160, 24, 115);
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  outline: auto;
+  outline-style: groove;
+  font-size: 26px;
+  padding: 20px;
+  margin: 3px;
+  font-size: 25px;
+  transition: all 0.3s ease-out;
 }
 
 .choice button:hover {
-    background-color: rgb(11, 137, 146);
-    outline: auto;
-    outline-style: groove;
-    
+  background-color: rgb(11, 137, 146);
+  outline: auto;
+  outline-style: groove;
 }
