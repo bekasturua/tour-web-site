@@ -50,12 +50,10 @@
     background-color: green;
 }
 
-
 .tickets_btn button:hover {
     background: green;
     font-weight: bold;
 }
-
 
 .ligue_title h1 {
     display: flex;

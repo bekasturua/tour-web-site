@@ -9,7 +9,7 @@
 
 .choice_parent {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
 }
 
 .tickets_title h1 {
@@ -49,5 +49,4 @@
 .tickets_btn button:hover {
     background: green;
     font-weight: bold;
-
 }

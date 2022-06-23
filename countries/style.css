@@ -23,9 +23,8 @@
 }
 
 .Countries:hover {
-    box-shadow: 5px 10px 15px #0f06bd; 
+    box-shadow: 5px 10px 15px #0f06bd;
 }
-
 
 .Countries h1 {
     border-bottom: 3px dashed rgb(0, 0, 0);

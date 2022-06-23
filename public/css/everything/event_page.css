@@ -1,34 +1,40 @@
 .footer_tickets_click a {
   color: white;
-  border-bottom: 5px solid white; }
+  border-bottom: 5px solid white;
+}
 
 .tickets_click button {
-  background-color: green; }
+  background-color: green;
+}
 
 .choice_parent {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .tickets_title h1 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   font-weight: bold;
-  font-size: 60px; }
+  font-size: 60px;
+}
 
 .tickets_title h2 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   font-weight: bold;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+}
 
 .tickets_btn {
   display: flex;
   justify-content: space-around;
   border: 5px dashed #0966a4;
   border-radius: 100px;
-  margin: 50px; }
+  margin: 50px;
+}
 
 .tickets_btn button {
   background-color: blue;
@@ -38,34 +44,40 @@
   font-size: 24px;
   border-radius: 100px;
   font-weight: bold;
-  margin: 50px; }
+  margin: 50px;
+}
 
 .event_btn button {
-  background-color: green; }
+  background-color: green;
+}
 
 .tickets_btn button:hover {
   background: green;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .event_title h1 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .event_title h2 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   font-weight: bold;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+}
 
 .event_tickets_btn {
   display: flex;
   justify-content: space-around;
   border: 5px dashed #0966a4;
   border-radius: 100px;
-  margin: 50px; }
+  margin: 50px;
+}
 
 .event_tickets_btn button {
   background-color: blue;
@@ -75,7 +87,9 @@
   font-size: 24px;
   border-radius: 100px;
   font-weight: bold;
-  margin: 50px; }
+  margin: 50px;
+}
 
 .event_tickets_btn button:hover {
-  background-color: #c912b9; }
+  background-color: #c912b9;
+}

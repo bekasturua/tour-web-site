@@ -26,7 +26,9 @@ function userRegister() {
         return res.json();
       })
       .then((users) => {
-        if (Object.values(users).filter((user) => user.email == email).length == 0) {
+        if (
+          Object.values(users).filter((user) => user.email == email).length == 0
+        ) {
           registerUser(data);
         } else {
           alert("Already exists!");

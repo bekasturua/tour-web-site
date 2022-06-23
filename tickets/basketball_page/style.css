@@ -3,7 +3,6 @@
     border-bottom: 5px solid white;
 }
 
-
 .tickets_click button {
     background-color: green;
 }
@@ -54,7 +53,6 @@
 .tickets_btn button:hover {
     background: green;
     font-weight: bold;
-
 }
 
 .basketball_title h1 {

@@ -37,9 +37,8 @@
 }
 
 .tours:hover {
-    box-shadow: 10px 10px 10px 10px #6c089e; 
+    box-shadow: 10px 10px 10px 10px #6c089e;
 }
-
 
 .tours h1 {
     border-bottom: 3px dashed rgb(0, 0, 0);

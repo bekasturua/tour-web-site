@@ -1,34 +1,40 @@
 .footer_hotel_click a {
   color: white;
-  border-bottom: 5px solid white; }
+  border-bottom: 5px solid white;
+}
 
 .choice_parent {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .hotel_click button {
-  background-color: green; }
+  background-color: green;
+}
 
 .hotels_title h1 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   font-weight: bold;
-  font-size: 60px; }
+  font-size: 60px;
+}
 
 .hotels_title h2 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   font-weight: bold;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+}
 
 .hotels_btn {
   display: flex;
   justify-content: space-around;
   border: 5px dashed #0966a4;
   border-radius: 100px;
-  margin: 50px; }
+  margin: 50px;
+}
 
 .hotels_btn button {
   background-color: blue;
@@ -38,14 +44,17 @@
   font-size: 24px;
   border-radius: 100px;
   font-weight: bold;
-  margin: 50px; }
+  margin: 50px;
+}
 
 .cottage_btn button {
-  background-color: green; }
+  background-color: green;
+}
 
 .hotels_btn button:hover {
   background: green;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /*  */
 .cottage_product {
@@ -53,36 +62,44 @@
   cursor: pointer;
   border: 2px outset #05dab6;
   box-shadow: 5px 2px 10px #1791a1;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .cottage_product img {
   width: 23.5vw;
-  height: 30vh; }
+  height: 30vh;
+}
 
 .cottage_product:hover {
-  box-shadow: 0px 6px 10px #15ee01; }
+  box-shadow: 0px 6px 10px #15ee01;
+}
 
 .cottage_div h5 {
   display: flex;
   justify-content: center;
-  font-size: 30px; }
+  font-size: 30px;
+}
 
 .cottage_div b {
-  font-size: 32px; }
+  font-size: 32px;
+}
 
 .cottages {
   margin-top: 20px;
   margin-bottom: 100px;
   margin-left: 8px;
-  margin-right: 8px; }
+  margin-right: 8px;
+}
 
 .cottage_parent {
   display: flex;
   justify-content: space-around;
-  margin: 40px; }
+  margin: 40px;
+}
 
 .cottage_location h1 {
   display: flex;
   justify-content: center;
   font-size: 50px;
-  font-weight: bold; }
+  font-weight: bold;
+}

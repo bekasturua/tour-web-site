@@ -25,7 +25,6 @@
     margin: 20px;
 }
 
-
 .contact h1 {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -65,7 +64,7 @@
     border-radius: 20px;
     padding: 45px;
     margin-bottom: 50px;
-    margin-left:48%;
+    margin-left: 48%;
 }
 
 .contact_letter button:hover {
@@ -73,7 +72,6 @@
 }
 
 /*  second side of contact */
-
 
 .contact_text {
     border: 5px dashed rgb(149, 124, 192);
