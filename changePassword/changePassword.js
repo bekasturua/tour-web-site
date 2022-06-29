@@ -15,13 +15,16 @@ submitBtn.addEventListener("click", () => {
 });
 
 function changePassword(user) {
-  fetch(`https://easytravel-d1779-default-rtdb.firebaseio.com/users/${user.id}.json`, {
-    method: "PUT",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(user),
-  }).then(() => {
+  fetch(
+    `https://easytravel-d1779-default-rtdb.firebaseio.com/users/${user.id}.json`,
+    {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(user),
+    }
+  ).then(() => {
     localStorage.setItem("loggedInUser", JSON.stringify(user));
   });
 }
